@@ -13,17 +13,18 @@ sebagai hasilnya dapat mengidentifikasi bug dalam suatu project
     5.hadir pada review meeting terkait project
 
 ## Skil yang harus dimiliki sofware tester
- a) Non-technical skills               
-    1.analytical skill 
-    2.communication skill 
-    3.time management 
-    5.passion
+    a) Non-technical skills               
+        1.analytical skill 
+        2.communication skill 
+        3.time management 
+        4.great atitude 
+        5.passion
 
- b) technical skills
-    1.basic knowladge 
-    2.test management tool
-    3.tracking management
-    4.automation testing tool
+    b) technical skills
+        1.basic knowladge 
+        2.test management tool
+        3.tracking management
+        4.automation testing tool
 
 ## Pengelompokan untuk karir software tester
     1.junior Quality Engineer (fresher)
