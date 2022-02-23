@@ -38,12 +38,9 @@ menguasai sofware testing,test case managemnet tools,automation testing,
 kemudian aplikasikan pada saat masuk dunia kerja 
 
 ### challenge di slide 22
-problem :
-
-    ![ss tugas](./screenshots/ss tugas.png)
-    
-penyelesaian :
-
+    problem :
+    ![sstugas](./screenshots/sstugas.png)
+    penyelesaian :
  jadi menurut saya untuk membuat 4L air dari dua wadah 5L dan 3L adalah
  membuat 4L air,namun kita harus melakukan kegiatan berulang untuk mengisi air
  caranya seperti ini :
