@@ -13,24 +13,24 @@ sebagai hasilnya dapat mengidentifikasi bug dalam suatu project
     5.hadir pada review meeting terkait project
 
 ## Skil yang harus dimiliki sofware tester
-a) Non-technical skills               
-   1.analytical skill 
-   2.communication skill 
-   3.time management 
-   5.passion
+ a) Non-technical skills               
+    1.analytical skill 
+    2.communication skill 
+    3.time management 
+    5.passion
 
-b) technical skills
-   1.basic knowladge 
-   2.test management tool
-   3.tracking management
-   4.automation testing tool
+ b) technical skills
+    1.basic knowladge 
+    2.test management tool
+    3.tracking management
+    4.automation testing tool
 
 ## Pengelompokan untuk karir software tester
-1.junior Quality Engineer (fresher)
-2.Quality Engineer        (1-2 tahun pengalaman)
-3.senior Quality Engineer (lebih 3 tahun pengalaman)
-4.Quality Engineer lead   (5-6 tahun pengalaman)
-5.Quality Engineer manager(8-11 tahun pengalaman)
+    1.junior Quality Engineer (fresher)
+    2.Quality Engineer        (1-2 tahun pengalaman)
+    3.senior Quality Engineer (lebih 3 tahun pengalaman)
+    4.Quality Engineer lead   (5-6 tahun pengalaman)
+    5.Quality Engineer manager(8-11 tahun pengalaman)
 
 ## how to become software tester ?
 menguasai sofware testing,test case managemnet tools,automation testing,
