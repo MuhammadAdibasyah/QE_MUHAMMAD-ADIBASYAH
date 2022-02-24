@@ -1,8 +1,8 @@
 # 4 Software Testing Fundamnental 
 
 ## Pengertian Sofware Testing
-sebuah proses menganalisis suatu item perangkat lunak untuk memprediksi 
- keadaan perangkat sekarang dan yang akan diperlukan,serta utnuk mnegevaluasi fitur dari 
+sebuah proses menganalisis suatu item perangkat lunak untuk mendeteksi  
+ keadaan perangkat lunak yang sudah dan yang akan diperlukan,serta utnuk mnegevaluasi fitur dari 
  item perangkat lunak tersebut.
 
 ## Kenapa penting software testing ?
