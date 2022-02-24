@@ -1,9 +1,8 @@
 # 4 Software Testing Fundamnental 
 
 ## Pengertian Sofware Testing
-sebuah proses menganalisis suatu item perangkat lunak untuk mendeteksi  
- keadaan perangkat lunak yang sudah dan yang akan diperlukan,serta utnuk mnegevaluasi fitur dari 
- item perangkat lunak tersebut.
+Sebuah proses menganalisis suatu item perangkat lunak untuk mendeteksi keadaan perangkat lunak
+yang sudah dan yang akan diperlukan,serta untuk mnegevaluasi fitur dari item perangkat lunak tersebut.
 
 ## Kenapa penting software testing ?
 karena dengan adanya software testing kita dapat melakukan bebrapa hal diantaranya :
@@ -13,7 +12,7 @@ karena dengan adanya software testing kita dapat melakukan bebrapa hal diantaran
 	 3.Menjaga keamaanan 
 	 4.Menyenangkan hati pelanggan 
 
-dari cerita yang ada pada slide sangat terlihat jelas bagaimana dampak dari adanya bug,
+Dari cerita yang ada pada slide sangat terlihat jelas bagaimana dampak dari adanya bug,
 dari cerita pertama mengakibatkan orang kehilangan uang sedangkan pada cerita kedua
 menyebabkan nyawa orang melayang,oleh karena itu software teting di perlukan agar
 dapat menyempurnakan suatu sistem yang dibuat dan menghindarkan resiko yang fatal.
@@ -47,14 +46,14 @@ Dibedakan menjadi 4 yaitu
           2.Automate testing
             * pengujian software dengan menggunakan sfotwware testing,tujuanya
               untuk melihat output yang sebenarnya dan yang diprediksi.
-            * pada automatae yang tester membuat script dan dijalankan dengan
+            * pada automate tester akan membuat script dan dijalankan dengan
               automation tools.
-            * Pada automatae ini utnuk design UI sangat terbatas
+            * Pada automate ini utnuk design UI sangat terbatas
 
     b)Non-functional testing
-           pengujuan ini dilakukan setelah functional testing dilakukan yang dilihat dari 
+           pengujuan ini dilakukan setelah functional testing yang dilihat dari 
            pengujian ini seperti salah satunya performa dari suatu software,jadi pada non
-           fuctional testing ini kita dapat menilai bagimana hasil dari suatu produk yang 
+           fuctional testing ini kita dapat menilai bagaimana hasil dari suatu produk yang 
            telah kita buat apakah perlu ada peningkatan performa atau sebagainya.
 
     c)Maintenece Testing
