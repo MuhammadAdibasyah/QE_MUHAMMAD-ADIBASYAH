@@ -86,4 +86,6 @@
 
 dibawah ini merupakan task praktikum yang telah saya kerjakan.
 
-[task](./praktikum/task.md)
+  -[task](./praktikum/task.md)
+  
+  -[JIRA](./praktikum/JIRA.md)

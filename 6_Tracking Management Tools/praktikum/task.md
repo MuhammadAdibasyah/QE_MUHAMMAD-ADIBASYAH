@@ -46,3 +46,7 @@ berikut hasil task jira yang telah saya lakukan
 [fitur1.1](./task/fitur1.1.png)
 [fitur2](./task/fitur2.png)
 [fitur2.2](./task/fitur2.2.png)
+
+berikut untuk screenshots bug nya
+
+[JIRA](./JIRA.md)
