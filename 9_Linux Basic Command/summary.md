@@ -57,3 +57,6 @@ satu klik saja tidak perlu memasukan command satu persatu.
 berikut ini adalah task section 9 yang telah saya kerjakan 
 
 [task](./praktikum/task.md)
+
+[shellscript](./praktikum/shellscript.sh)
+
