@@ -1,7 +1,10 @@
+#!/bin/sh
 git version;
 date ;
 history ;
 clear ;
-ini adalah percobaan ke sekian kalinya
-masih sering gagal
+echo ======================================
+echo ini adalah percobaan ke sekian kalinya
+echo       tapi masih sering gagal
+echo ======================================
 cat shellscript.sh ;
