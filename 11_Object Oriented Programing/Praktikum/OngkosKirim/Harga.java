@@ -1,9 +1,10 @@
 package OngkosKirim;
 
-public class Harga {
+public class Harga extends Perhitungan {
 
     public static void main(String[]args){
-
-        Perhitungan.run();
+        Harga obj = new Harga();
+        int harga = obj.totalHarga(5,4,3,1);
+        System.out.println("Harga : Rp " + harga);
     }
 }
