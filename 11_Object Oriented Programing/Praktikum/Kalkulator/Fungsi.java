@@ -17,11 +17,5 @@ public class Fungsi {
         int bagi = a / b ;
         return bagi ;
     }
-    static void run(){
-        System.out.println("Penjumlahan : " + penjumlahan(3,4) );
-        System.out.println("Pengurangan : " + pengurangan(15,4));
-        System.out.println("Perkalian : " + perkalian(10,10));
-        System.out.println("Pembagian : " + pembagian(12,3));
-    }
 }
 

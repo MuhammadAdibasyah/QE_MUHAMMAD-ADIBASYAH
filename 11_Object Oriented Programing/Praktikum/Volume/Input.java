@@ -3,8 +3,8 @@ package Volume;
 public class Input {
 
     protected static  Integer volumeKubus (int sisi){
-        int volumePersegi = sisi * sisi * sisi ;
-        return volumePersegi;
+        int balok = sisi * sisi * sisi ;
+        return balok;
     }
     protected static Integer volumeBalok (int panjang, int lebar, int tinggi){
         int volumeBalok = panjang * lebar * tinggi ;
@@ -14,10 +14,5 @@ public class Input {
         int volumeTabung =  (22 * 7 * 7 * 10)/7;
         return volumeTabung;
     }
-    static void run(){
-        System.out.println("Volume");
-        System.out.println("Kubus : " + volumeKubus(10));
-        System.out.println("Balok : " + volumeBalok(3,6,10));
-        System.out.println("Tabung : " + volumeTabung(7,10));
-    }
+
 }
