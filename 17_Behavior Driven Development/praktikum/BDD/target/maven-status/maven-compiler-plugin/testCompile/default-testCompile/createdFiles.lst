@@ -1,0 +1,9 @@
+starter\stepdefenitions\PeopleSteps.class
+discover\Discover.class
+starter\stepdefenitions\LoginSteps.class
+starter\CucumberTestSuite.class
+singUp\SignUp.class
+starter\stepdefenitions\DiscoverSteps.class
+starter\stepdefenitions\SingUpSteps.class
+people\People.class
+login\Login.class
