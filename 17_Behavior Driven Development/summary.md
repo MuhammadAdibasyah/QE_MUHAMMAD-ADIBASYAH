@@ -38,3 +38,13 @@ pengembengan sistem.hal ini dapat membantu memastikan bahwa :
 untuk melakukan BDD diperlukan tools seperti cucumber,cucumber membaca
 semacam ketentuan yang dapat di eksekusi.ketentuan ini nantinya akan 
 terdiri dari beberapa scenario.
+
+# TASK SECTION 17
+
+Berikut ini adalah link report 
+
+file:///D:/BDD/target/site/serenity/index.html
+
+preview dari report : 
+
+![preview](./screenshots/preview.png)

@@ -3,11 +3,6 @@ package discover;
 import net.thucydides.core.annotations.Step;
 
 public class Discover {
-    @Step(" I am on the home page")
-    public  void onHomePage() {
-        System.out.println("on home page");
-
-    }
 
     @Step("I click discover button")
     public void clickDiscoverButton(){

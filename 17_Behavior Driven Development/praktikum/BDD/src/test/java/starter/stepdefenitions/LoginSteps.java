@@ -31,4 +31,29 @@ public class LoginSteps {
         login.onTheHomrPage();
 
     }
+    @When("I enter invalid username and valid password")
+    public void enterInvalidUsernameAndValidPassword(){
+        login.enterInvalidUsernameAndValidPassword();
+
+    }
+    @Then("I am fail to login")
+    public void failToLogin(){
+        login.failToLogin();
+
+    }
+    @And("I get a notifications")
+    public void getNotifications(){
+        login.getNotifications();
+
+    }
+    @When("I enter valid username and invalid password")
+    public void enterValidUsernameAndInvalidPassword(){
+        login.enterValidUsernameAndInvalidPassword();
+
+    }
+    @When("I enter invalid username and password")
+    public void enterInvalidUsernameAndPassword(){
+        login.enterInvalidUsernameAndPassword();
+
+    }
 }

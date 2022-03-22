@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! - in starter.CucumberTestSuite
-starter.CucumberTestSuite  Time elapsed: 0.006 s  <<< ERROR!
-io.cucumber.core.gherkin.FeatureParserException: 
-Failed to parse resource at: file:///D:/BDD/src/test/resources/features/SignUp.feature
-(9:1): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ExamplesLine, #ScenarioLine, #RuleLine, #Comment, #Empty, got 'Feature : As an user,I want to sign up using my google account,So that i can to the app'
-
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.496 s - in starter.CucumberTestSuite

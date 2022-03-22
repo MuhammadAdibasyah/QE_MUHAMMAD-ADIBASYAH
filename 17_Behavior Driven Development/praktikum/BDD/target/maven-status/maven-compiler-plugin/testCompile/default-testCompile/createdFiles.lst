@@ -1,9 +1,13 @@
 starter\stepdefenitions\PeopleSteps.class
 discover\Discover.class
+learning\Learning.class
+starter\stepdefenitions\JobsSteps.class
+starter\stepdefenitions\LearningSteps.class
 starter\stepdefenitions\LoginSteps.class
 starter\CucumberTestSuite.class
+jobs\Jobs.class
+starter\stepdefenitions\SignUpSteps.class
 singUp\SignUp.class
 starter\stepdefenitions\DiscoverSteps.class
-starter\stepdefenitions\SingUpSteps.class
 people\People.class
 login\Login.class
