@@ -144,7 +144,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [];
+            var requirementsTree = [{"text":"As an user I want to see existing learn on learning page So that i can see many learning","type":"feature","href":"90996ebb08119c9d5dee919779354f9aaea6a79b85a7a0e50dcbc32c26c271f9.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -193,7 +193,7 @@
 
 
 
-                    > <span class="truncate-40">As An User,i Want To See My Home Page,so That I Can Update My Profile</span>
+                    > <span class="truncate-40">As An User I Want To See Existing Learn On Learning Page So That I Can See Many Learning</span>
 
             </span>
         </div>
@@ -215,7 +215,7 @@
             <a href="#"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated </span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 22-03-2022 21:40</span>
     <br style="clear:left"/>
 </div>
 
@@ -232,7 +232,7 @@
 
                                     <div class="col-sm-12">
                                         <span>
-                                            <h2><i class="bi bi-book"></i> Feature: As An User,i Want To See My Home Page,so That I Can Update My Profile</h2>
+                                            <h2><i class="bi bi-book"></i> Feature: As An User I Want To See Existing Learn On Learning Page So That I Can See Many Learning</h2>
                                         </span>
                                     </div>
                                 </div>
@@ -269,13 +269,90 @@
                                                 <h3>Feature Coverage By Scenario</h3>
 
                                                 <!-- REQUIREMENTS PIE CHART -->
+                                                    <div class="chart-container" style="position: relative; width:30vw">
+                                                        <canvas id="requirementChart" width="300" height="300"></canvas>
+                                                    </div>
 
                                             </div>
                                             <div class="col-sm-8">
-                                                <h3>Requirements Overview</h3>
+                                                <!--- TOC --->
+                                                <div id="toc">
+                                                    <h3>Overview</h3>
+                                                    <table class="table" id="toc-table">
+                                                                    <tr>
+                                                                        <td style="width:95%;" class="toc-title">
+                                                                            <span class="orphan-scenario-toc-entry">
+                                                                                    <a href="#3dcc6bf805a707221b5b2e0df4e59bdf89fdea9ed306578d33077fbb5e9245e2"
+                                                                                       title="View scenario details">
+                                                                                        <i class="bi bi-chat-dots"></i> Scenario: As an user i have be able to see many existing learn
+                                                                                    </a>
+                                                                                </span>
+                                                                        </td>
+                                                                        <td>
 
-                                                <div id="tree"></div>
+                                                                        </td>
+                                                                        <td style="width:5%;">
+                                                                            <table>
+                                                                                <tr>
+                                                                                    <td class="icons-bar">
+                                                                                        <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                                           href="a06642d126bdaf247013cccba51224537b666c19e338c5e6c7e1b47373419e0d.html"
+                                                                                           title="View test results">
+                                                                                            <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
+                                                                                            </a>
 
+
+                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                                               href="a06642d126bdaf247013cccba51224537b666c19e338c5e6c7e1b47373419e0d.html"
+                                                                                               title="View test results">
+                                                                                                <i class="bi bi-eyeglasses"></i>
+                                                                                            </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                    </table>
+                                                </div>
+                                                <!--- END OF TOC --->
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                    <h3>Scenarios</h3>
+
+                                                        <a name="7ab41db7-5e49-4203-99d7-04ea224ebfa9"></a>
+                                                        <p class="rule-tags inline-tag">
+                                                        </p>
+
+
+                                                            <div class="scenario-docs card" id="3dcc6bf805a707221b5b2e0df4e59bdf89fdea9ed306578d33077fbb5e9245e2">
+                                                                <div class="scenario-docs card-header success" style="min-height:1.5em;">
+                                                                    <div>
+                                                                        <span class="scenario-heading">
+                                                                            <a href="a06642d126bdaf247013cccba51224537b666c19e338c5e6c7e1b47373419e0d.html"
+                                                                               title="View test results">Scenario: As an user i have be able to see many existing learn</a>
+                                                                        </span>
+
+                                                                        <span class="example-tags inline-tag">
+                                                                        </span>
+
+                                                                        <span class="scenario-result-icon">
+                                                                    
+
+                                                                                <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
+                                                                        </span>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="scenario-docs card-body">
+                                                                        <p>Given I am on the home page</p>
+                                                                        <p>When I click learning button</p>
+                                                                        <p>Then I can see many existing learn</p>
+                                                                    <div class="examples">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -287,6 +364,9 @@
                                             <div class="col-sm-4">
                                                 <h3>Feature Coverage By Scenario</h3>
                                                 <!-- TEST RESULT PIE CHART -->
+                                                    <div class="chart-container" style="position: relative; width:30vw">
+                                                        <canvas id="resultChart" width="300" height="300"></canvas>
+                                                    </div>
                                             </div>
                                             <div class="col-sm-4">
                                                 <h4><i class="bi bi-check-square"></i> Test Outcomes</h4>
@@ -315,7 +395,6 @@
                                                            id="scenario-results">
                                                         <thead>
                                                         <tr>
-                                                                <th>feature</th>
                                                             <th class="test-name-column">Scenario</th>
                                                             <th>Steps</th>
                                                             <th>Started</th>
@@ -324,19 +403,16 @@
                                                         </tr>
                                                         </thead>
                                                         <tbody>
-                                                            <tr class="scenario-result UNDEFINED">
-                                                                    <td>
-                                                                            <a href="3ddd22dc537484d049de1f098f7200ad1de1710d14dd4eff4330d3957a3d0f82.html">As an user,I want to see my home page,So that i can update my profile</a>
-                                                                    </td>
+                                                            <tr class="scenario-result SUCCESS">
                                                                 <td>
-                                                                        <a href="">As user i have be able to success login</a>
+                                                                        <a href="a06642d126bdaf247013cccba51224537b666c19e338c5e6c7e1b47373419e0d.html">As an user i have be able to see many existing learn</a>
                                                                 </td>
-                                                                <td>4</td>
-                                                                <td></td>
-                                                                <td></td>
+                                                                <td>3</td>
+                                                                <td>21:40:39</td>
+                                                                <td>090ms</td>
                                                                 <td>
-                                                                        <i class='bi bi-pause-circle undefined-icon ' title='No test has been implemented yet'></i> <span
-                                                                            style="display:none">UNDEFINED</span>
+                                                                        <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                            style="display:none">SUCCESS</span>
                                                                                                                                     </td>
                                                             </tr>
                                                         </tbody>
@@ -380,21 +456,21 @@
 
         // Options define for display value on top of bars
         const outcomeDetailsReports = [
-            { title: 'Passing Scenarios', link: "32cb4425d74958045db245db55b0392212b0aa373b8abdabe765d4fd27bef81d.html" },
-            { title: 'Pending Scenarios', link: "902214e7189f9e210e2d1b86e3e989628c173c6a354d8bf152d880955021dc8c.html" },
-            { title: 'Ignored Scenarios', link: "84e36506cbc10ca624a89a28b86f1a39afd26f5b5f869e84a5fbb97f60d27c65.html" },
-            { title: 'Skipped Scenarios', link: "9ac4ba36280bd77e1c5f0d420cdb31291bc54882be67b5f59f8d8e095b9e7808.html" },
-            { title: 'Aborted Scenarios',  link: "bec43efae3c368981930c2de40dd7d2da3fb964362f47e96a91b91d7d8c14b7e.html"},
-            { title: 'Failed Scenarios', link: "5ad60f665cc1b9c7643759816a945135e081af7d977658de0bd30525da3a6a9a.html"  },
-            { title: 'Broken Scenarios', link: "e02dbddbc20c262f54e65b610a5e9b93005f8f4b24dc79569a198292acd93c2a.html"    },
-            { title: 'Compromised Scenarios',  link: "0b3fe186f444ad9d837c443624de31a73ff8bffe3a4c757fb2a73a0608899dae.html" },
+            { title: 'Passing Scenarios', link: "9cbb9497c70e571111f40ce2a4a3d35871ec628ae2885cc0530bc8736b68b265.html" },
+            { title: 'Pending Scenarios', link: "1c53adabc7a3306ad9d4e7e2767f675b810d13f861aee4cc7c90626e25a683df.html" },
+            { title: 'Ignored Scenarios', link: "526ac2a6acf15af0ba4ece619a064867cb64a5f1ea4e0be045a46f93c1966d0c.html" },
+            { title: 'Skipped Scenarios', link: "15692d4849882395b2d40a7872ead68c7bdfe33dc02135ac9c66fdeeb4a51698.html" },
+            { title: 'Aborted Scenarios',  link: "6b49b52d927c852c44b6ebbfe014adfc84b9c65366da86e7cff8da2cfe2888f6.html"},
+            { title: 'Failed Scenarios', link: "d9a1a59707fc94a1597575abce3c3cfb114627b80b3a6a9905d5e768283bba29.html"  },
+            { title: 'Broken Scenarios', link: "372964c96f119ab87734c45ea80721ad009aae3d6bc5fa49d03dc5d7a78cff7b.html"    },
+            { title: 'Compromised Scenarios',  link: "76d2c7c0b703b42fad80e359a4f4aeee9a9f6f933f99d9094e8d60caf6021c7b.html" },
         ]
         const outcomeData = {
             labels: ['Passing Scenarios', 'Pending Scenarios', 'Ignored Scenarios', 'Skipped Scenarios', 'Aborted Scenarios', 'Failed Scenarios', 'Broken Scenarios', 'Compromised Scenarios','Undefined Scenarios'],
             datasets: [{
                 label: 'Test Results',
                 fill: false,
-                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
+                data: [{meta: 'Passing tests', value: 1}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
                 backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                 borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                 borderWidth: 1,
@@ -445,7 +521,7 @@
                         ctx.font = fontSize + "em sans-serif";
                         ctx.textBaseline = "middle";
 
-                        var text = " "
+                        var text = "100%"
                         textX = 10 + Math.round((width - ctx.measureText(text).width) / 2);
                         textY = (height / 2) - 40;
 
@@ -474,14 +550,14 @@
 
         // Options define for display value on top of bars
         const requirementsOutcomeDetailsReports = [
-            { title: 'Passing Scenarios', link: "32cb4425d74958045db245db55b0392212b0aa373b8abdabe765d4fd27bef81d.html" },
-            { title: 'Pending Scenarios', link: "902214e7189f9e210e2d1b86e3e989628c173c6a354d8bf152d880955021dc8c.html" },
-            { title: 'Ignored Scenarios', link: "84e36506cbc10ca624a89a28b86f1a39afd26f5b5f869e84a5fbb97f60d27c65.html" },
-            { title: 'Skipped Scenarios', link: "9ac4ba36280bd77e1c5f0d420cdb31291bc54882be67b5f59f8d8e095b9e7808.html" },
-            { title: 'Aborted Scenarios',  link: "bec43efae3c368981930c2de40dd7d2da3fb964362f47e96a91b91d7d8c14b7e.html"},
-            { title: 'Failed Scenarios', link: "5ad60f665cc1b9c7643759816a945135e081af7d977658de0bd30525da3a6a9a.html"  },
-            { title: 'Broken Scenarios', link: "e02dbddbc20c262f54e65b610a5e9b93005f8f4b24dc79569a198292acd93c2a.html"    },
-            { title: 'Compromised Scenarios',  link: "0b3fe186f444ad9d837c443624de31a73ff8bffe3a4c757fb2a73a0608899dae.html" },
+            { title: 'Passing Scenarios', link: "9cbb9497c70e571111f40ce2a4a3d35871ec628ae2885cc0530bc8736b68b265.html" },
+            { title: 'Pending Scenarios', link: "1c53adabc7a3306ad9d4e7e2767f675b810d13f861aee4cc7c90626e25a683df.html" },
+            { title: 'Ignored Scenarios', link: "526ac2a6acf15af0ba4ece619a064867cb64a5f1ea4e0be045a46f93c1966d0c.html" },
+            { title: 'Skipped Scenarios', link: "15692d4849882395b2d40a7872ead68c7bdfe33dc02135ac9c66fdeeb4a51698.html" },
+            { title: 'Aborted Scenarios',  link: "6b49b52d927c852c44b6ebbfe014adfc84b9c65366da86e7cff8da2cfe2888f6.html"},
+            { title: 'Failed Scenarios', link: "d9a1a59707fc94a1597575abce3c3cfb114627b80b3a6a9905d5e768283bba29.html"  },
+            { title: 'Broken Scenarios', link: "372964c96f119ab87734c45ea80721ad009aae3d6bc5fa49d03dc5d7a78cff7b.html"    },
+            { title: 'Compromised Scenarios',  link: "76d2c7c0b703b42fad80e359a4f4aeee9a9f6f933f99d9094e8d60caf6021c7b.html" },
             { title: 'Undefined Scenarios',  link: "" },
         ]
         const requirementsOutcomeData = {
@@ -489,7 +565,7 @@
             datasets: [{
                 label: 'Feature Coverage',
                 fill: false,
-                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
+                data: [{meta: 'Passing tests', value: 1}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
                 backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                 borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                 borderWidth: 1,
@@ -540,7 +616,7 @@
                         ctx.font = fontSize + "em sans-serif";
                         ctx.textBaseline = "middle";
 
-                        var text = " "
+                        var text = "100%"
                         textX = 10 + Math.round((width - ctx.measureText(text).width) / 2);
                         textY = (height / 2) - 40;
 
@@ -571,21 +647,21 @@
         // Options define for display value on top of bars
 
         const severityDetailsReports = [
-            { title: 'Passing Scenarios', link: "32cb4425d74958045db245db55b0392212b0aa373b8abdabe765d4fd27bef81d.html" },
-            { title: 'Pending Scenarios', link: "902214e7189f9e210e2d1b86e3e989628c173c6a354d8bf152d880955021dc8c.html" },
-            { title: 'Ignored Scenarios', link: "84e36506cbc10ca624a89a28b86f1a39afd26f5b5f869e84a5fbb97f60d27c65.html" },
-            { title: 'Skipped Scenarios', link: "9ac4ba36280bd77e1c5f0d420cdb31291bc54882be67b5f59f8d8e095b9e7808.html" },
-            { title: 'Aborted Scenarios',  link: "bec43efae3c368981930c2de40dd7d2da3fb964362f47e96a91b91d7d8c14b7e.html"},
-            { title: 'Failed Scenarios', link: "5ad60f665cc1b9c7643759816a945135e081af7d977658de0bd30525da3a6a9a.html"  },
-            { title: 'Broken Scenarios', link: "e02dbddbc20c262f54e65b610a5e9b93005f8f4b24dc79569a198292acd93c2a.html"    },
-            { title: 'Compromised Scenarios',  link: "0b3fe186f444ad9d837c443624de31a73ff8bffe3a4c757fb2a73a0608899dae.html" },
+            { title: 'Passing Scenarios', link: "9cbb9497c70e571111f40ce2a4a3d35871ec628ae2885cc0530bc8736b68b265.html" },
+            { title: 'Pending Scenarios', link: "1c53adabc7a3306ad9d4e7e2767f675b810d13f861aee4cc7c90626e25a683df.html" },
+            { title: 'Ignored Scenarios', link: "526ac2a6acf15af0ba4ece619a064867cb64a5f1ea4e0be045a46f93c1966d0c.html" },
+            { title: 'Skipped Scenarios', link: "15692d4849882395b2d40a7872ead68c7bdfe33dc02135ac9c66fdeeb4a51698.html" },
+            { title: 'Aborted Scenarios',  link: "6b49b52d927c852c44b6ebbfe014adfc84b9c65366da86e7cff8da2cfe2888f6.html"},
+            { title: 'Failed Scenarios', link: "d9a1a59707fc94a1597575abce3c3cfb114627b80b3a6a9905d5e768283bba29.html"  },
+            { title: 'Broken Scenarios', link: "372964c96f119ab87734c45ea80721ad009aae3d6bc5fa49d03dc5d7a78cff7b.html"    },
+            { title: 'Compromised Scenarios',  link: "76d2c7c0b703b42fad80e359a4f4aeee9a9f6f933f99d9094e8d60caf6021c7b.html" },
         ]
         const severityData = {
             labels: ['Passing', 'Pending', 'Ignored', 'Skipped', 'Aborted', 'Failed', 'Broken', 'Compromised'],
             datasets: [
                 {
                     label: 'Automated',
-                    data: [0,0,0,0,0,0,0,0],
+                    data: [1,0,0,0,0,0,0,0],
                     backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                     borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                     borderWidth: 1
@@ -649,14 +725,14 @@
 
         // Options define for display value on top of bars
         const durationDetailsReports = [
-                {title: "Under 1 second", link: "20ae21df2d142cfc8921c748da1603cf32a087eb905a81e72ab65fdfaa581e04.html"},
-                {title: "1 to 10 seconds", link: "47a735f77f05d52942b13a823359584ee0280da8c8de7909948a2d5f9fc36179.html"},
-                {title: "10 to 30 seconds", link: "3ad86143ad4f28b5b04efcb8430089bd555b0d616f0f5424ba749c63402a8caa.html"},
-                {title: "30 to 60 seconds", link: "c39f71a2e2b2c2d09170dbde5a8b1bab4867050fe717d0bd7ad30e7f42fe7960.html"},
-                {title: "1 to 2 minutes", link: "1f276106a30c4ff198dce44463cc8839e1530410aa590b8db4f755f6f31611ec.html"},
-                {title: "2 to 5 minutes", link: "64186648e2bc3942dbf5a073bbe99698eaade8e586d9c3bcad237b62727bb74f.html"},
-                {title: "5 to 10 minutes", link: "cd14d90a86aed87b02e30485724f77fc3ad8680f3b6b9420df8dfa76356712af.html"},
-                {title: "10 minutes or over", link: "23ae68579876e64a9866198b3908b1f6c207f9d333683e805988d9c51ad48aa4.html"},
+                {title: "Under 1 second", link: "1886b4b532ab377e15965b85e2186f695af58ddf3afa14463a6b23995b999354.html"},
+                {title: "1 to 10 seconds", link: "ca35379de5141310716e27f15a7c4e476a5aef01468faa3c12c883aaebb0d0dc.html"},
+                {title: "10 to 30 seconds", link: "416f1682d648361efbb1aa8f91799589c558f7e9a5a6df4609f3cabd0fcb6a3b.html"},
+                {title: "30 to 60 seconds", link: "10fe22356ce20287caf54320b3daab1c27592b651046adbc0653d7370f4e3530.html"},
+                {title: "1 to 2 minutes", link: "ed723ee2f43ebdf7ae6f9c7878b430d9e20425424d3d17eca46ba26a4893dd94.html"},
+                {title: "2 to 5 minutes", link: "3818ee24e6633cb2bba4f215d2a07de80bec97118c1041afb358b2589bb4a909.html"},
+                {title: "5 to 10 minutes", link: "2aa40177809f5afbf55e58754e1d135353037536a7be3c7fff26b7f8f0b1d2a9.html"},
+                {title: "10 minutes or over", link: "3d216eb4ae0211c74b910fe176c2511f3a18793f0cc87f4d375cf9079512908e.html"},
         ]
         // The Severity bar chart
         const durationChartCtx = document.getElementById('durationChart');
@@ -668,7 +744,7 @@
             datasets: [{
                 label: 'Number of tests per duration',
                 fill: false,
-                data: ['0','0','0','0','0','0','0','0'],
+                data: ['1','0','0','0','0','0','0','0'],
                 backgroundColor: 'rgba(83, 146, 255,0.5)',
                 borderColor: 'rgba(83, 146, 255, 1)',
             }]

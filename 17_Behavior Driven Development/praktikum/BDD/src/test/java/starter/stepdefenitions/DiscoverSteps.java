@@ -1,21 +1,16 @@
 package starter.stepdefenitions;
 
 import discover.Discover;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
 
 public class DiscoverSteps {
     @Steps
-    discover.Discover Discover;
+    Discover Discover;
 
-    @Given("I am on the home page")
-    public void onHomePage(){
-        Discover.onHomePage();
-    }
     @When("I click discover button")
-    public void clickDiscoberButton(){
+    public void clickDiscoverButton(){
         Discover.clickDiscoverButton();
     }
     @Then("I am on discover page")
