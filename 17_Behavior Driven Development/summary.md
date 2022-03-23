@@ -43,7 +43,7 @@ terdiri dari beberapa scenario.
 
 Berikut ini adalah link report 
 
-file:///D:/BDD/target/site/serenity/index.html
+file:///D:/kampus%20merdeka/Intelij/BDD/target/site/serenity/index.html
 
 preview dari report : 
 
