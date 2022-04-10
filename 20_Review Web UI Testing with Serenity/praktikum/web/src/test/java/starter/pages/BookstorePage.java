@@ -9,10 +9,10 @@ public class BookstorePage extends PageObject {
         return By.xpath("(//div[@class='card mt-4 top-card'])[6]");
     }
     private By title(){
-        return By.xpath("//div[@text()='Book Store']");
+        return By.className("main-header");
     }
     private By book(){
-        return By.id("see-book-Git Pocket Guide");
+        return By.xpath("(//div[@class='action-buttons'])[1]");
     }
     private By isbn(){
         return By.xpath("(//label[@id='userName-value'])[1]");
