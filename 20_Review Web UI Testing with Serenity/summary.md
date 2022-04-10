@@ -66,3 +66,12 @@ Writing The Test :
 - theres no restriction on how to locate the element
 
 ### Run the test
+
+
+# Report 
+
+berikut ini adalah link report : file:///D:/kampus%20merdeka/Intelij/web/target/site/serenity/index.html
+
+overview dari report :
+
+![report](./screenshots/report.png)

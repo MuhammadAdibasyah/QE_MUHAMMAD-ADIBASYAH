@@ -1,5 +1,6 @@
 package starter.stepdefenitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -14,6 +15,7 @@ public class BookstoreSteps {
     @Steps
     HomePage homePage;
 
+    //scenario1
     @Given("i am on the home page")
     public void onBookstorePage(){
         homePage.openPage();
@@ -30,6 +32,7 @@ public class BookstoreSteps {
         bookstorePage.validationOnBookstorePage();
     }
 
+    //scenario2
     @Given("i am on the bookstore page")
     public void onTheBookstorePage(){
         bookstorePage.validationOnBookstorePage();
@@ -43,5 +46,16 @@ public class BookstoreSteps {
     @Then("i can see about book")
     public void seeAboutBook(){
         bookstorePage.validationOnBook();
+    }
+
+    //scenario3
+    @When("i input valid keyword")
+    public void inputValidKeyword(){
+        bookstorePage.inputValidKeyword("learning");
+    }
+
+    @Then("i can see book with valid keyword")
+    public void seeBook(){
+        bookstorePage.validationKeyword();
     }
 }
