@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: As a user I want to check book in bookstore So that i visit to bookstore
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.201 s <<< FAILURE! - in As a user I want to check book in bookstore So that i visit to bookstore
+As a user I want to check book in bookstore So that i visit to bookstore.GET Book - As admin i failed to see existing book with input data  Time elapsed: 1.198 s  <<< ERROR!
+java.lang.NullPointerException
+
