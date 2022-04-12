@@ -41,4 +41,25 @@ public class LoginSteps {
     public void successLogin(){
         loginPage.validationAfterLogin();
     }
+
+    @When("i input invalid password")
+    public void inputInvalidPassword(){
+        loginPage.inputInvalidPassword("dedeb140700");
+    }
+
+    @Then("i failed to login and get error message")
+    public void appearErrorMessage(){
+        loginPage.appearErrorMessage();
+    }
+
+    @When("i not input username and password")
+    public void notInputUsernamePassword(){
+        loginPage.inputPassword("");
+        loginPage.inputUsername("");
+    }
+
+    @Then("i get error message")
+    public void iGetErrorMessage() {
+        loginPage.getErrorMessage();
+    }
 }

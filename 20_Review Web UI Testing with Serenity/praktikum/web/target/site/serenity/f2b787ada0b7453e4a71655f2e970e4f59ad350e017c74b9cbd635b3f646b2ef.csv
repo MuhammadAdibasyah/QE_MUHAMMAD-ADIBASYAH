@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"As a user I want to visit bookstore So that i can see existing book in store","As user i have be able to see bookstore page","SUCCESS","2022-04-10T23:27:12.648+07:00[Asia/Bangkok]","0.0","22.74"
-"As a user I want to visit bookstore So that i can see existing book in store","As user i have be able to choose existing book","SUCCESS","2022-04-10T23:27:36.359+07:00[Asia/Bangkok]","0.0","17.54"
-"As a user I want to visit bookstore So that i can see existing book in store","As user i have be able to success to search book with search feature","SUCCESS","2022-04-10T23:27:54.688+07:00[Asia/Bangkok]","0.0","19.27"
+"As a user I want to visit bookstore So that i can see existing book in store","As user i have be able to see bookstore page","SUCCESS","2022-04-12T18:09:20.568+07:00[Asia/Bangkok]","0.0","23.22"
+"As a user I want to visit bookstore So that i can see existing book in store","As user i have be able to choose existing book","SUCCESS","2022-04-12T18:09:44.754+07:00[Asia/Bangkok]","0.0","21.77"
+"As a user I want to visit bookstore So that i can see existing book in store","As user i have be able to success to search book with search feature","SUCCESS","2022-04-12T18:10:07.383+07:00[Asia/Bangkok]","0.0","12.69"

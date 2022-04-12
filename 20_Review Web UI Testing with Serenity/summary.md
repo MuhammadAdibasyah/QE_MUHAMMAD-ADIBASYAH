@@ -74,4 +74,4 @@ berikut ini adalah link report : file:///D:/kampus%20merdeka/Intelij/web/target/
 
 overview dari report :
 
-![report](./screenshots/report.png)
+![reportTerbaru](./screenshots/reportTerbaru.png)

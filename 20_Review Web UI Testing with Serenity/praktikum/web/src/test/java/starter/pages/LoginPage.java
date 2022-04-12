@@ -26,6 +26,17 @@ public class LoginPage extends PageObject {
         return By.className("form-label");
     }
 
+    private By errorMessage(){
+        return By.xpath("(//div[@class='mt-4 row'])");
+    }
+
+    private By getMessage(){
+        return By.id("userForm");
+    }
+
+
+
+
     @Step
     public void clickLoginButtonOnBookstore(){
         $(buttonLoginOnBookstore()).click();
@@ -54,5 +65,20 @@ public class LoginPage extends PageObject {
     @Step
     public boolean validationAfterLogin(){
         return $(classLogin()).isDisplayed();
+    }
+
+    @Step
+    public void inputInvalidPassword(String password){
+        $(passwordField()).type(password);
+    }
+
+    @Step
+    public boolean appearErrorMessage(){
+        return $(errorMessage()).isDisplayed();
+    }
+
+    @Step
+    public boolean getErrorMessage(){
+        return $(getMessage()).isDisplayed();
     }
 }
