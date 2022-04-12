@@ -43,3 +43,10 @@ test pyramid dimulai dengan unit dan diakhiri dengan UI,jadi Unit berada pada da
 - Support for BDD/Gherkin 
 - Use of hamcrest mathces for cheks
 - use of gpath for selecting element from JSON response
+
+
+# TASK
+
+report : 
+
+![report](./screenshots/report.png)
