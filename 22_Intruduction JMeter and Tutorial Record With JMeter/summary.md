@@ -44,3 +44,7 @@ fungsi pepngujian lainya.
 - pre-post processor
 
   fitur yang memproses response data sebelum/sesudah tes
+
+# TASK
+
+[task](./praktikum/task.md)

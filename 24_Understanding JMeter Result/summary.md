@@ -35,3 +35,8 @@
 4) saran
 
    - berikan saran agar sistem lebih baik lagi setelah dites
+
+
+# TASK 
+
+[task](./praktikum/task.md)

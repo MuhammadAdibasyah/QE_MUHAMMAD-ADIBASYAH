@@ -53,3 +53,8 @@ g) Soak testing
 
   untuk mengetahui reliabilty ketika dalam tekanan dibawah puncak dalam jangka panjang (>= 1 jam).dapat mengetahui
   apakah terdapat bug pada race condition,memory leaks dll
+
+
+# TASK
+
+[task](./praktikum/task.md)
