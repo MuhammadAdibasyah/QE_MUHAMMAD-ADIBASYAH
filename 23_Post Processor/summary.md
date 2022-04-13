@@ -15,3 +15,7 @@ Digunakan untuk ekstrak isi dari JSON response,beberapa ekpresi yang umum diguna
 - .. = recursive descent (langsung ke objek)
 - (*) = wildcard (all things)
 - [start:end] = array slice operator borrowed
+
+# TASK
+
+[task](./praktikum/task.md)
