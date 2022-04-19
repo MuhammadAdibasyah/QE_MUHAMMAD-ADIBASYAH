@@ -1,0 +1,5 @@
+test\mobile\pages\LoginPage.class
+test\mobile\CucumberTestSuite.class
+test\mobile\hooks\BaseDriverHooks.class
+test\mobile\pages\HomePage.class
+test\mobile\stepdefenitions\LoginSteps.class
