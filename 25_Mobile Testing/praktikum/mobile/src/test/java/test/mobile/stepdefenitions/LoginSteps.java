@@ -25,13 +25,13 @@ public class LoginSteps {
 
     @When("android user input valid email")
     public void inputValidEmail(){
-        String email = "ustad"+"@gmail.com";
+        String email = "";
         loginPage.inputValidEmail(email);
     }
 
     @And("android user input valid password")
     public void inputValidPassword(){
-        String password = "password";
+        String password = "";
         loginPage.inputValidPassword(password);
     }
 

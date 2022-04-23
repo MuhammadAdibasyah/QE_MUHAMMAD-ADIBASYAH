@@ -1,5 +1,6 @@
 package test.mobile.driver;
 
+import io.appium.java_client.Setting;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
@@ -11,7 +12,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-public class AndroidDriverPool {
+public class AndroidDriverPool  {
     public static AndroidDriver create() {
         AndroidDriver<AndroidElement> driver = null;
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -25,7 +26,10 @@ public class AndroidDriverPool {
 //        caps.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, configProperties.getAndroid().getAppActivity());
         caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 100);
         caps.setCapability(MobileCapabilityType.NO_RESET, true);
-        caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + File.separator + "app/app.apk");
+//        caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + File.separator + "app/app.apk");
+        caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + File.separator + "app/calculator-alta-qe.apk");
+        caps.setCapability(String.valueOf(Setting.WAIT_FOR_IDLE_TIMEOUT), 100);
+
 
         try {
             driver = new AndroidDriver<AndroidElement>(new URL(appiumUrl), caps);

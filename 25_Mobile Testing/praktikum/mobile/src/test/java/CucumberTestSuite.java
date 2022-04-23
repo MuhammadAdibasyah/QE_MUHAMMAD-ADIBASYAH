@@ -1,5 +1,3 @@
-package test.mobile;
-
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
@@ -9,6 +7,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         stepNotifications = true,
         plugin = "pretty"
-        )
+)
 public class CucumberTestSuite {
 }

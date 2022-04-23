@@ -186,7 +186,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 19-04-2022 21:41:42</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 23-04-2022 08:09:33</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -201,7 +201,7 @@
                         <td width="375px" valign="top">
                             <div class="test-count-summary">
                                 <div class="test-count-title">
-                                    0 test scenarios 
+                                    3 test scenarios 
                                     
 
                                 </div>
@@ -225,6 +225,53 @@
                                             <div class="container-fluid">
                                                 <div class="row">
                                                     <div class="col-sm-4">
+                                                            <div style="width:300px;" class="chart-container automated-and-manual-results">
+                                                                <div class="ct-chart ct-square"></div>
+                                                            </div>
+                                                            <script>
+
+                                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                                // Our series array that contains series objects or in this case series data arrays
+
+                                                                var series = [{meta: 'Passing tests (automated)', value: 3}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Aborted tests (automated)', value: 0}, {meta: 'Aborted tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+
+                                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
+                                                                // as you saw in the previous example
+                                                                var options = {
+                                                                    width: 350,
+                                                                    height: 300
+                                                                };
+
+
+                                                                new Chartist.Pie('.ct-chart', {
+                                                                    series: series,
+                                                                    labels: labels
+                                                                }, {
+                                                                    plugins: [Chartist.plugins.tooltip()],
+                                                                    donut: true,
+                                                                    donutWidth: 60,
+                                                                    donutSolid: true,
+                                                                    startAngle: 270,
+                                                                    showLabel: true
+                                                                }, options);
+
+
+                                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                                                                    new Chartist.Pie('.ct-chart', {
+                                                                        series: series,
+                                                                        labels: labels
+                                                                    }, {
+                                                                        plugins: [Chartist.plugins.tooltip()],
+                                                                        donut: true,
+                                                                        donutWidth: 60,
+                                                                        donutSolid: true,
+                                                                        startAngle: 270,
+                                                                        showLabel: true
+                                                                    }, options);
+                                                                });
+
+
+                                                            </script>
                                                     </div>
                                                     <div class="col-sm-8">
 
@@ -241,11 +288,12 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                    <td class="aggregate-result-count"><i
-                                                                                class='bi bi-check-circle-fill success-icon'></i>&nbsp;Passing
+                                                                    <td class="aggregate-result-count">
+                                                                        <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
+                                                                                    class='bi bi-check-circle-fill success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                <td class="automated-stats">3</td>
+                                                                <td class="automated-stats">100%</td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -303,7 +351,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">0</td>
+                                                                <td class="automated-stats">3</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -327,20 +375,96 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td></td>
-                                                                <td></td>
-                                                                <td>0ms</td>
-                                                                <td>0ms</td>
-                                                                <td>0ms</td>
-                                                                <td>0ms</td>
-                                                                <td>0ms</td>
+                                                                <td>23-04-2022 08:07:58 +0700</td>
+                                                                <td>23-04-2022 08:09:20 +0700</td>
+                                                                <td> 1m 22s</td>
+                                                                <td>26s</td>
+                                                                <td>29s</td>
+                                                                <td>27s</td>
+                                                                <td> 1m 22s</td>
                                                             </tr>
                                                             </tbody>
                                                         </table>
                                                     </div>
                                                 </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <h3>Functional Coverage Overview</h3>
 
 
+                                                                    <h4>Features</h4>
+
+                                                                    <table class="table feature-coverage-table" id="Feature">
+                                                                        <thead>
+                                                                        <tr>
+                                                                            <th>Feature</th>
+                                                                            <th style="width:7.5em;">Scenarios</th>
+                                                                            <th style="width:7.5em;">% Pass</th>
+                                                                            <th style="width:7.5em;">Result</th>
+                                                                            <th>Coverage</th>
+                                                                        </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="e324baeb3d096d63c33899335919656b8e32d20ffedef34ed1e1fb5afd0794d3.html">As a user I want to complete some problem math So that i have to operate calculator</a>
+                                                                                </td>
+                                                                                <td>3</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #99cc33"
+                                                                                                 aria-valuenow="3"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <h3>Tags</h3>
+
+                                                                <div class="card">
+                                                                    <div class="card-body">
+                                                                        <div>
+                                                                                <a href="9319ed70b77c80e93c8034ce89528e77393f9676bb2111dd9a5803ababeffa08.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#89b72d; margin:1em;padding:4px;"><i
+                                                                                    class="bi bi-tag"></i> Calculator&nbsp;&nbsp;&nbsp;3</span>
+                                                                                </a>
+                                                                                <a href="17198fa08b9d3948d9908447cd095298c5b00b37e7de64b81312b819b7de82fa.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#89b72d; margin:1em;padding:4px;"><i
+                                                                                    class="bi bi-tag"></i> Sum&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="35f849f6e47828ba88e20b86ac12f78b4d8d49c068b222f13e74d8407cdb7e2c.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#89b72d; margin:1em;padding:4px;"><i
+                                                                                    class="bi bi-tag"></i> Multiplied&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                                <a href="ec2d239d850e8a73aff094093220812c1c995efd5a114fb51dd52a581190c8a7.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#89b72d; margin:1em;padding:4px;"><i
+                                                                                    class="bi bi-tag"></i> Minus&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
                                             </div>
                                         </div>
                                         <div id="tests" class="tab-pane fade">
@@ -349,7 +473,63 @@
                                                     <div class="col-sm-12">
                                                         <h3><i class="bi bi-gear"></i> Automated Tests</h3>
 
-                                                            No automated tests were executed
+                                                            <table class="scenario-result-table table"
+                                                                   id="scenario-results">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th>feature</th>
+                                                                    <th class="test-name-column">Scenario</th>
+                                                                    <th>Steps</th>
+                                                                    <th>Started</th>
+                                                                    <th>Duration</th>
+                                                                    <th>Result</th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="e324baeb3d096d63c33899335919656b8e32d20ffedef34ed1e1fb5afd0794d3.html">As a user I want to complete some problem math So that i have to operate calculator</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="049fda17b9f70f56db5a9171a8a1c18b87a09bcf204d695685a3a875ca481cda.html">As user i have be able to see sum result</a>
+                                                                        </td>
+                                                                        <td>6</td>
+                                                                        <td>08:07:58</td>
+                                                                        <td>29s 429ms</td>
+                                                                        <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="e324baeb3d096d63c33899335919656b8e32d20ffedef34ed1e1fb5afd0794d3.html">As a user I want to complete some problem math So that i have to operate calculator</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="66e73b3da2fb26e2a12e7b4561bf413442dd84425ca8375b06a926363504c36c.html">As user i have be able to see multiplied result</a>
+                                                                        </td>
+                                                                        <td>6</td>
+                                                                        <td>08:08:28</td>
+                                                                        <td>26s 311ms</td>
+                                                                        <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result SUCCESS">
+                                                                        <td>
+                                                                                <a href="e324baeb3d096d63c33899335919656b8e32d20ffedef34ed1e1fb5afd0794d3.html">As a user I want to complete some problem math So that i have to operate calculator</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="994ee236063da9df869b1b70a3306fae4a2bb29d54ab5444c00741a23783b192.html">As user i have be able to see minus result</a>
+                                                                        </td>
+                                                                        <td>6</td>
+                                                                        <td>08:08:54</td>
+                                                                        <td>26s 375ms</td>
+                                                                        <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
 
                                                     </div>
                                                 </div>
