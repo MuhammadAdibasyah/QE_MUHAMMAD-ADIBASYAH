@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"As user I want see home page So that i can buy books","As user i have be able to success login","SUCCESS","2022-04-12T18:10:20.981+07:00[Asia/Bangkok]","0.0","11.59"
-"As user I want see home page So that i can buy books","As user i have failed to login","SUCCESS","2022-04-12T18:10:33.487+07:00[Asia/Bangkok]","0.0","12.61"
-"As user I want see home page So that i can buy books","As user i have failed to login with not input data","SUCCESS","2022-04-12T18:10:46.983+07:00[Asia/Bangkok]","0.0","11.14"
+"As user I want see home page So that i can buy books","As user i have be able to success login","SUCCESS","2022-04-23T11:32:53.514+07:00[Asia/Bangkok]","0.0","20.04"
+"As user I want see home page So that i can buy books","As user i have failed to login","SUCCESS","2022-04-23T11:33:14.706+07:00[Asia/Bangkok]","0.0","15.2"
+"As user I want see home page So that i can buy books","As user i have failed to login with not input data","SUCCESS","2022-04-23T11:33:30.755+07:00[Asia/Bangkok]","0.0","11.35"

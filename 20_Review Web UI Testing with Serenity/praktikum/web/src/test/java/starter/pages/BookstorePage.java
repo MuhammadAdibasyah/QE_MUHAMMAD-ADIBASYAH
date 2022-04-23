@@ -5,6 +5,7 @@ import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.By;
 
 public class BookstorePage extends PageObject {
+    //element
     private By featureBookstore(){
         return By.xpath("(//div[@class='card mt-4 top-card'])[6]");
     }
@@ -24,6 +25,7 @@ public class BookstorePage extends PageObject {
         return By.xpath("(//input[@class='form-control'])");
     }
 
+    //function
     @Step
     public void clickFeatureBookstore(){
         $(featureBookstore()).click();
@@ -53,6 +55,4 @@ public class BookstorePage extends PageObject {
     public boolean validationKeyword(){
         return $(searchBox()).isDisplayed();
     }
-
-
 }

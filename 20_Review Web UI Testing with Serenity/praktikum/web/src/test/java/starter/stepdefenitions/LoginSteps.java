@@ -12,6 +12,7 @@ public class LoginSteps {
     @Steps
     LoginPage loginPage;
 
+    //scenario 1
     @And("i click login button in bookstore page")
     public void clickLoginButtonInBookstore(){
         loginPage.clickLoginButtonOnBookstore();
@@ -42,6 +43,7 @@ public class LoginSteps {
         loginPage.validationAfterLogin();
     }
 
+    //scenario 2
     @When("i input invalid password")
     public void inputInvalidPassword(){
         loginPage.inputInvalidPassword("dedeb140700");
@@ -52,6 +54,7 @@ public class LoginSteps {
         loginPage.appearErrorMessage();
     }
 
+    //scenario 3
     @When("i not input username and password")
     public void notInputUsernamePassword(){
         loginPage.inputPassword("");

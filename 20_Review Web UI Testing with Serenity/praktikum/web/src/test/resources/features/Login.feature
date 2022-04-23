@@ -6,6 +6,7 @@ Feature: As user I want see home page So that i can buy books
     When i click feature bookstore
     And i click login button in bookstore page
 
+  @positive
   Scenario: As user i have be able to success login
     Given i am on the login page
     When i input valid username
