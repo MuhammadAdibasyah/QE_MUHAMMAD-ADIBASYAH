@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.mobile.CucumberTestSuite" time="0.186" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberTestSuite" time="93.533" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
@@ -36,7 +36,7 @@
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="C:\OPT\apache-maven-3.8.5\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\Admin"/>
-    <property name="tags" value="@fail"/>
+    <property name="tags" value="@calculator"/>
     <property name="user.timezone" value="Asia/Bangkok"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_321\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dtags=@fail"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dtags=@calculator"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -65,9 +65,25 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initializationError" classname="test.mobile.CucumberTestSuite" time="0.03">
-    <error message="io/cucumber/core/runtime/TypeRegistryConfigurerSupplier" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: io/cucumber/core/runtime/TypeRegistryConfigurerSupplier
-Caused by: java.lang.ClassNotFoundException: io.cucumber.core.runtime.TypeRegistryConfigurerSupplier
-</error>
-  </testcase>
+  <testcase name="user on calculator page" classname="As user i have be able to see sum result" time="22.742"/>
+  <testcase name="user choose first number 5" classname="As user i have be able to see sum result" time="1.46"/>
+  <testcase name="user tap sign &quot;plus&quot;" classname="As user i have be able to see sum result" time="1.837"/>
+  <testcase name="user choose second number 7" classname="As user i have be able to see sum result" time="1.506"/>
+  <testcase name="user tap sign &quot;equals&quot;" classname="As user i have be able to see sum result" time="1.608"/>
+  <testcase name="user see the result sum" classname="As user i have be able to see sum result" time="0.004"/>
+  <testcase name="As user i have be able to see sum result" classname="As user i have be able to see sum result" time="0.026"/>
+  <testcase name="user on calculator page" classname="As user i have be able to see multiplied result" time="19.857"/>
+  <testcase name="user choose first number 9" classname="As user i have be able to see multiplied result" time="1.475"/>
+  <testcase name="user tap sign &quot;multiplied&quot;" classname="As user i have be able to see multiplied result" time="1.845"/>
+  <testcase name="user choose second number 2" classname="As user i have be able to see multiplied result" time="1.478"/>
+  <testcase name="user tap sign &quot;equals&quot;" classname="As user i have be able to see multiplied result" time="1.608"/>
+  <testcase name="user see the result multiplied" classname="As user i have be able to see multiplied result" time="0.004"/>
+  <testcase name="As user i have be able to see multiplied result" classname="As user i have be able to see multiplied result" time="0.036"/>
+  <testcase name="user on calculator page" classname="As user i have be able to see minus result" time="19.813"/>
+  <testcase name="user choose first number 4" classname="As user i have be able to see minus result" time="1.458"/>
+  <testcase name="user tap sign &quot;minus&quot;" classname="As user i have be able to see minus result" time="1.969"/>
+  <testcase name="user choose second number 6" classname="As user i have be able to see minus result" time="1.509"/>
+  <testcase name="user tap sign &quot;equals&quot;" classname="As user i have be able to see minus result" time="1.577"/>
+  <testcase name="user see the result minus" classname="As user i have be able to see minus result" time="0.004"/>
+  <testcase name="As user i have be able to see minus result" classname="As user i have be able to see minus result" time="0.016"/>
 </testsuite>
