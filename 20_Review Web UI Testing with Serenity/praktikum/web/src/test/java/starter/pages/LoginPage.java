@@ -6,8 +6,12 @@ import org.openqa.selenium.By;
 
 public class LoginPage extends PageObject {
 
+    //element
     private By buttonLoginOnBookstore(){
         return By.xpath("//button[@id='login']");
+    }
+    private By loginButton(){
+        return By.id("login");
     }
 
     private By formLogin(){
@@ -23,7 +27,7 @@ public class LoginPage extends PageObject {
     }
 
     private By classLogin(){
-        return By.className("form-label");
+        return By.id("submit");
     }
 
     private By errorMessage(){
@@ -34,12 +38,19 @@ public class LoginPage extends PageObject {
         return By.id("userForm");
     }
 
+    private By ads(){
+        return By.className("cbb pea");
+    }
 
-
-
+    //function
     @Step
     public void clickLoginButtonOnBookstore(){
         $(buttonLoginOnBookstore()).click();
+    }
+
+    @Step
+    public void closeAds(){
+        $(ads()).click();
     }
 
     @Step
@@ -59,7 +70,7 @@ public class LoginPage extends PageObject {
 
     @Step
     public void clickLoginButton(){
-        enter();
+        $(loginButton()).click();
     }
 
     @Step

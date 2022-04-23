@@ -1,3 +1,4 @@
+@books
 Feature: As a user I want to visit bookstore So that i can see existing book in store
 
   Background:
