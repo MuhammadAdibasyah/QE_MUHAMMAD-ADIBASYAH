@@ -102,14 +102,10 @@ Component github actions :
 
 praktikum :
 
-[CICD](./praktikum/CICD)
+https://github.com/MuhammadAdibasyah/CI-CD.git
 
 berikut adalah hasilnya :
 
 ![overview1](./screenshots/overview1.png)
 
 ![overview2](./screenshots/overview2.png)
-
-repository yang digunakan :
-
-https://github.com/MuhammadAdibasyah/CI-CD.git
