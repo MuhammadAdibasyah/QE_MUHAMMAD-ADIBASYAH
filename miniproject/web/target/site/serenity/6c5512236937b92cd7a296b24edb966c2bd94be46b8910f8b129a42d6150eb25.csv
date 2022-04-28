@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As user I want to login So that i can see home page","As user i have failed to login with invalid email","SUCCESS","2022-04-27T23:34:21.87+07:00[Asia/Bangkok]","0.0","7.55"
+"As user I want to login So that i can see home page","As user i have failed to login with not input data","SUCCESS","2022-04-27T23:34:30.228+07:00[Asia/Bangkok]","0.0","8.87"
