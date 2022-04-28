@@ -1,0 +1,6 @@
+starter\CucumberTestSuite.class
+starter\pages\HomePage.class
+starter\pages\LoginPage.class
+starter\pages\BookstorePage.class
+starter\stepdefenitions\BookstoreSteps.class
+starter\stepdefenitions\LoginSteps.class

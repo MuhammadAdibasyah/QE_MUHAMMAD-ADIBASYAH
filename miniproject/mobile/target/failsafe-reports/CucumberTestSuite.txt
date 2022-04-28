@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 0, Errors: 2, Skipped: 5, Time elapsed: 139.707 sec <<< FAILURE! - in CucumberTestSuite
+user on calculator page(As user i have be able to see multiplied result)  Time elapsed: 39.813 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.AccessibilityId: Calculator (tried for 15 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EQ55Q8H', ip: '192.168.43.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\kampus merdeka\Intelij\m..., appPackage: com.example.calculator, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\kampus merdeka\Intelij\m..., autoGrantPermissions: true, automationName: UiAutomator2, newCommandTimeout: 100, noReset: true, platformName: android, waitForIdleTimeout: 100}, deviceApiLevel: 29, deviceManufacturer: Xiaomi, deviceModel: MI 8, deviceName: f94a8b4a, deviceScreenDensity: 440, deviceScreenSize: 1080x2248, deviceUDID: f94a8b4a, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 100, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 89, takesScreenshot: true, viewportRect: {height: 1940, left: 0, top: 89, width: 1080}, waitForIdleTimeout: 100, warnings: {}, webStorageEnabled: false}
+Session ID: 1ddbc858-e5fb-4815-9742-4c511a1d00d8
+*** Element info: {Using=accessibility id, value=Calculator}
+
+As user i have be able to see multiplied result  Time elapsed: 0.058 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.AccessibilityId: Calculator (tried for 15 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EQ55Q8H', ip: '192.168.43.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\kampus merdeka\Intelij\m..., appPackage: com.example.calculator, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\kampus merdeka\Intelij\m..., autoGrantPermissions: true, automationName: UiAutomator2, newCommandTimeout: 100, noReset: true, platformName: android, waitForIdleTimeout: 100}, deviceApiLevel: 29, deviceManufacturer: Xiaomi, deviceModel: MI 8, deviceName: f94a8b4a, deviceScreenDensity: 440, deviceScreenSize: 1080x2248, deviceUDID: f94a8b4a, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 100, noReset: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 89, takesScreenshot: true, viewportRect: {height: 1940, left: 0, top: 89, width: 1080}, waitForIdleTimeout: 100, warnings: {}, webStorageEnabled: false}
+Session ID: 1ddbc858-e5fb-4815-9742-4c511a1d00d8
+*** Element info: {Using=accessibility id, value=Calculator}
+
