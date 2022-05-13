@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="As user i want to see categories and add new categories" skipped="0" tests="2" time="9.08" timestamp="2022-05-14 01:24:47"><testcase name="GET - As a user I want to get all categories"/><testcase name="POST - As a user I want to create new categories with valid data"/></testsuite>
