@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="As user i want to create account So that i can login" skipped="0" tests="2" time="26.74" timestamp="2022-05-13 09:01:34"><testcase name="As user i have be able to success crete account"/><testcase name="As user i have failed to create account with registered data"/></testsuite>
