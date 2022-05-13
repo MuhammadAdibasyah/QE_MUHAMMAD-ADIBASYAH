@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As user i want to see product and create new product","GET - As a user I want to get detail product","SUCCESS","2022-05-14T01:24:57.21+07:00[Asia/Bangkok]","0.0","1.95"
+"As user i want to see product and create new product","GET - As a user I fail to get detail product","SUCCESS","2022-05-14T01:24:59.167+07:00[Asia/Bangkok]","0.0","1.19"
+"As user i want to see product and create new product","POST - As a user I want to post product","SUCCESS","2022-05-14T01:25:00.362+07:00[Asia/Bangkok]","0.0","0.38"

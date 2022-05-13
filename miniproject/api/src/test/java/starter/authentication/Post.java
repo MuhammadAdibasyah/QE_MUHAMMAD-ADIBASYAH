@@ -1,4 +1,4 @@
-package starter.user;
+package starter.authentication;
 
 import com.github.javafaker.Faker;
 import net.serenitybdd.rest.SerenityRest;
