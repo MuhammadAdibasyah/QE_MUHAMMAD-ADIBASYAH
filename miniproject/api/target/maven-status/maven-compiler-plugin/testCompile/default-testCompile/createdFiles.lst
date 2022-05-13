@@ -1,5 +1,11 @@
+starter\transactions\PostTransaksi.class
+starter\stepdefenitions\AuthSteps.class
+starter\categories\Get.class
+starter\Product\Get.class
+starter\Product\Post.class
 starter\user\Post.class
+starter\categories\Post.class
 starter\CucumberTestSuite.class
-starter\stepdefenitions\BookSteps.class
-starter\book\Get.class
-starter\stepdefenitions\PostStep.class
+starter\stepdefenitions\ProductSteps.class
+starter\stepdefenitions\TransactionSteps.class
+starter\stepdefenitions\CategoriesSteps.class
