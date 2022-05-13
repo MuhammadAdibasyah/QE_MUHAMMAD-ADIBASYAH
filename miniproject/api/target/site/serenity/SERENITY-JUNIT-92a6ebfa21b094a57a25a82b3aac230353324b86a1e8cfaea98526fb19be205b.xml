@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="As user i want to create account So that i can login and see home page" skipped="0" tests="1" time="8.24" timestamp="2022-05-13 10:31:51"><testcase name="POST - As a user I failed to create account with empty data"/></testsuite>
