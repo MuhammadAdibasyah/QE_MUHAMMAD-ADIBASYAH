@@ -1,3 +1,4 @@
+@login
 Feature: As a user I want to login in the app So that i can see homepage
 
   @positif
@@ -15,3 +16,11 @@ Feature: As a user I want to login in the app So that i can see homepage
     And android user input password
     And android user tap login button
     Then android user see "email atau password tidak valid" message
+
+  @fail2
+  Scenario: As user i have failed to login with empty data
+    Given android user on landing screen
+    When android user not input email
+    And android user not input password
+    And android user tap login button
+    Then android user see error message

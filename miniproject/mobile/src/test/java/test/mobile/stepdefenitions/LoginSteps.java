@@ -21,13 +21,13 @@ public class LoginSteps {
     }
 
     @When("android user input valid email")
-    public void inputValidEmail(String email){
-        loginPage.inputValidEmail("debbb@gmail.com");
+    public void inputValidEmail(){
+        loginPage.inputEmail("debbb@gmail.com");
     }
 
     @And("android user input valid password")
-    public void inputValidPassword(String password){
-        loginPage.inputValidPassword("123");
+    public void inputValidPassword(){
+        loginPage.inputPassword("123");
     }
 
     @And("android user click login button")
@@ -43,13 +43,13 @@ public class LoginSteps {
 
     //scenario2
     @When("android user input unregistered email")
-    public void androidUserInputUnregisteredEmail(String email) {
-        loginPage.inputInValidEmail("ucok123@gmail.com");
+    public void androidUserInputUnregisteredEmail() {
+        loginPage.inputEmail("ucok123@gmail.com");
     }
 
     @And("android user input password")
-    public void androidUserInputPassword(String password) {
-        loginPage.inputInValidPassword("123");
+    public void androidUserInputPassword() {
+        loginPage.inputPassword("123");
     }
 
     @And("android user tap login button")
@@ -61,5 +61,21 @@ public class LoginSteps {
     public void androidUserSeeMessage(String message) {
         String actual = loginPage.getErrorMessage();
         Assert.assertEquals(actual,message);
+    }
+
+    //scenario 3
+    @When("android user not input email")
+    public void androidUserNotInputEmail() {
+        loginPage.inputEmail("");
+    }
+
+    @And("android user not input password")
+    public void androidUserNotInputPassword() {
+        loginPage.inputPassword("");
+    }
+
+    @Then("android user see error message")
+    public void androidUserSeeErrorMessage() {
+        loginPage.getErrorMessageEmptyData();
     }
 }
