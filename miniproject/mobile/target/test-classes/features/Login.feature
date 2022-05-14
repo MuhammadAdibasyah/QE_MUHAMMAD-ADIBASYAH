@@ -1,5 +1,6 @@
 Feature: As a user I want to login in the app So that i can see homepage
 
+  @positif
   Scenario: As a user i have be able to success login
     Given android user on landing screen
     When android user input valid email
