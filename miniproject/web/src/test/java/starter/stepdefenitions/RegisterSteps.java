@@ -7,6 +7,8 @@ import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
 import starter.pages.RegisterPage;
 
+import java.util.Random;
+
 public class RegisterSteps {
     @Steps
     RegisterPage registerPage;
@@ -26,12 +28,14 @@ public class RegisterSteps {
 
     @And("user input valid email")
     public void userInputValidEmail(){
-        registerPage.inputEmail("aseb@gmail.com");
+        Random rand = new Random();
+        int number = rand.nextInt(1000);
+        registerPage.inputEmail("contoh"+String.valueOf(number)+"@gmail.com");
     }
 
     @And("user input valid password")
     public void userInputValidPassword(){
-        registerPage.inputPassword("asep123");
+        registerPage.inputPassword("Password!2");
     }
 
     @And("user click register button")
