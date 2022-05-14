@@ -32,6 +32,9 @@ public class LoginPage extends BasePageObject {
     private By errorMessage(){
         return MobileBy.xpath("//android.view.View[@content-desc=\"Email atau password tidak valid.\"]");
     }
+    private By errorMessageEmptyData(){
+        return MobileBy.xpath( "//android.view.View[@content-desc=\"email can not empty\"]");
+    }
 
     @Step
     public boolean onHomePage(){
@@ -64,17 +67,21 @@ public class LoginPage extends BasePageObject {
     }
 
     @Step
-    public void inputInValidEmail(String email){
+    public void inputEmail(String email){
         onType(emailField(),email);
     }
 
     @Step
-    public void inputInValidPassword(String password){
+    public void inputPassword(String password){
         onType(passwordField(),password);
     }
 
     @Step
     public String getErrorMessage(){
         return waitUntilVisible(errorMessage()).getText();
+    }
+    @Step
+    public String getErrorMessageEmptyData(){
+        return waitUntilVisible(errorMessageEmptyData()).getText();
     }
 }
