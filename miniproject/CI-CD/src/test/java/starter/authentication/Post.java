@@ -13,7 +13,7 @@ public class Post {
     protected static String url = "https://be-qa.alta.id/api/";
     public static String fullname="";
     public static String email="";
-    protected static String password="password!2";
+    protected static String password="password";
 
     //scenario 1
     @Step("user set endpoint for login")
