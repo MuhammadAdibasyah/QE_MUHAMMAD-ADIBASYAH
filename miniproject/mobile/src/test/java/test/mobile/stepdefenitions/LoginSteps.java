@@ -75,12 +75,25 @@ public class LoginSteps {
 
     @Then("android user see error message")
     public void androidUserSeeErrorMessage() {
-        loginPage.getErrorMessageEmptyData();
+        loginPage.getErrorMessageEmptyEmail();
+        loginPage.getErrorMessageEmptyPassword();
     }
 
     //scenario 4
     @And("android user input invalid password")
     public void androidUserInputInvalidPassword() {
         loginPage.inputPassword("password12");
+    }
+
+    //scenario 5
+    @Then("android user see error message empty email")
+    public void androidUserSeeErrorMessageEmptyEmail() {
+        loginPage.getErrorMessageEmptyEmail();
+    }
+
+    //scenario 6
+    @Then("android user see error message empty password")
+    public void androidUserSeeErrorMessageEmptyPassword() {
+        loginPage.getErrorMessageEmptyPassword();
     }
 }

@@ -41,8 +41,8 @@ public class RegisterSteps {
         registerPage.inputPassword("Password!2");
     }
 
-    @And("user click login button")
-    public void userClickLoginButton() {
+    @And("user click register button")
+    public void userClickRegisterButton() {
         registerPage.clickRegisterButton();
     }
 
@@ -89,5 +89,17 @@ public class RegisterSteps {
     @Then("user get error message not input name")
     public void userGetErrorMessageNotInputName() {
         registerPage.errorMessageNoName();
+    }
+
+    //scenario 5
+    @Then("user get error message not input email")
+    public void userGetErrorMessageNotInputEmail() {
+        registerPage.errorMessageNoEmail();
+    }
+
+    //scenario 6
+    @Then("user get error message not input password")
+    public void userGetErrorMessageNotInputPassword() {
+        registerPage.errorMessageNoPassword();
     }
 }

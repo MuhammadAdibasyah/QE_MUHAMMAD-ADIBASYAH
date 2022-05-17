@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"As user I want to see home page So that i can buy product","POST - As a user I success to login with valid data","SUCCESS","2022-05-17T13:54:34+07:00[Asia/Bangkok]","0.0","0.66"
-"As user i want to make transactions","As a user I want to see all transaction with authorization","SUCCESS","2022-05-17T13:54:41.012+07:00[Asia/Bangkok]","0.0","1.03"
+"As user I want to see home page So that i can buy product","POST - As a user I success to login with valid data","SUCCESS","2022-05-17T21:18:43.544+07:00[Asia/Bangkok]","0.0","2.34"
+"As user i want to make transactions","As a user I want to see all transaction with authorization","SUCCESS","2022-05-17T21:18:53.406+07:00[Asia/Bangkok]","0.0","0.9"

@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"As user i want to see product and create new product","GET - As a user I want to get detail product","SUCCESS","2022-05-17T13:54:35.259+07:00[Asia/Bangkok]","0.0","2.25"
-"As user i want to see product and create new product","GET - As a user I fail to get detail product","SUCCESS","2022-05-17T13:54:37.53+07:00[Asia/Bangkok]","0.0","1.09"
-"As user i want to see product and create new product","POST - As a user I want to post product","SUCCESS","2022-05-17T13:54:38.629+07:00[Asia/Bangkok]","0.0","0.54"
+"As user i want to see product and create new product","GET - As a user I want to get detail product","SUCCESS","2022-05-17T21:18:47.153+07:00[Asia/Bangkok]","0.0","2.4"
+"As user i want to see product and create new product","GET - As a user I fail to get detail product","SUCCESS","2022-05-17T21:18:49.557+07:00[Asia/Bangkok]","0.0","1.51"
+"As user i want to see product and create new product","POST - As a user I want to post product","SUCCESS","2022-05-17T21:18:51.07+07:00[Asia/Bangkok]","0.0","0.52"
