@@ -33,7 +33,9 @@ public class RegisterPage extends PageObject {
     private By errorMessage(){
         return By.className("v-alert__wrapper");
     }
-
+    private By errorNoPassword(){
+        return By.className("v-alert__content");
+    }
     @Step
     public void openPage(){
         open();
@@ -71,5 +73,10 @@ public class RegisterPage extends PageObject {
     @Step
     public boolean getErrorMessage(){
         return $(errorMessage()).isDisplayed();
+    }
+
+    @Step
+    public boolean getErrorNoPassword(){
+        return $(errorNoPassword()).isDisplayed();
     }
 }

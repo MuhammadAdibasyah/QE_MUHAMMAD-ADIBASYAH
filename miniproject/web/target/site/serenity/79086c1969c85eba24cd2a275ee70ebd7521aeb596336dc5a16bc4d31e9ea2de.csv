@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"As user I want to login So that i can see home page","As user i have be able to success login","SUCCESS","2022-05-13T20:59:54.129+07:00[Asia/Bangkok]","0.0","20.13"
-"As user I want to login So that i can see home page","As user i have failed to login with invalid password","SUCCESS","2022-05-13T21:00:15.108+07:00[Asia/Bangkok]","0.0","17.5"
-"As user I want to login So that i can see home page","As user i have failed to login with invalid email","SUCCESS","2022-05-13T21:00:33.412+07:00[Asia/Bangkok]","0.0","14.04"
-"As user I want to login So that i can see home page","As user i have failed to login with not input data","SUCCESS","2022-05-13T21:00:48.31+07:00[Asia/Bangkok]","0.0","13.8"

@@ -21,6 +21,27 @@ public class RegisterPage extends BasePageObject {
     private By registerButton(){
         return MobileBy.xpath("//android.widget.Button[@content-desc=\"Register\"]");
     }
+    private By iconLogin(){
+        return MobileBy.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.widget.Button");
+    }
+    private By loginButton(){
+        return MobileBy.xpath("//android.widget.Button[@content-desc=\"Login\"]");
+    }
+    private By homePage(){
+        return MobileBy.xpath("//android.view.View[@content-desc=\"Products\"]");
+    }
+    private By errorNoEmail(){
+        return MobileBy.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]");
+    }
+    private By errorNoFullname(){
+        return MobileBy.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]");
+    }
+    private By errorNoPassword(){
+        return MobileBy.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[3]");
+    }
+    private By errorRegistered(){
+        return MobileBy.xpath("//android.view.View[@content-desc=\"Gagal :(\"]");
+    }
 
     @Step
     public void clickToRegister(){
@@ -44,5 +65,30 @@ public class RegisterPage extends BasePageObject {
     @Step
     public void clickRegisterButton(){
         onClick(registerButton());
+    }
+    @Step
+    public void onTheLoginPage(){
+        onClick(iconLogin());
+        waitUntilPresence(loginButton()).isDisplayed();
+    }
+    @Step
+    public boolean backOnTheHomePage(){
+        return waitUntilVisible(homePage()).isDisplayed();
+    }
+    @Step
+    public boolean errorMessageNoEmail(){
+        return waitUntilVisible(errorNoEmail()).isDisplayed();
+    }
+    @Step
+    public boolean errorMessageNoPassword(){
+        return waitUntilVisible(errorNoPassword()).isDisplayed();
+    }
+    @Step
+    public boolean errorMessageNoName(){
+        return waitUntilVisible(errorNoFullname()).isDisplayed();
+    }
+    @Step
+    public boolean errorMessageRegistered(){
+        return waitUntilVisible(errorRegistered()).isDisplayed();
     }
 }

@@ -29,8 +29,8 @@ public class RegisterSteps {
     @And("user input valid email")
     public void userInputValidEmail(){
         Random rand = new Random();
-        int number = rand.nextInt(1000);
-        registerPage.inputEmail("contoh"+String.valueOf(number)+"@gmail.com");
+        int number = rand.nextInt(100000);
+        registerPage.inputEmail("User"+String.valueOf(number)+"@gmail.com");
     }
 
     @And("user input valid password")
@@ -62,5 +62,16 @@ public class RegisterSteps {
     @Then("user fail to create account and get error message {string}")
     public void userFailToCreateAccountAndGetErrorMessage(String message) {
         registerPage.getErrorMessage();
+    }
+
+    //scenario 3
+    @And("user not input password")
+    public void userNotInputPassword() {
+        registerPage.inputPassword("");
+    }
+
+    @Then("user fail to create account and get error message")
+    public void userFailToCreateAccountAndGetErrorMessage() {
+        registerPage.getErrorNoPassword();
     }
 }

@@ -59,8 +59,7 @@ public class LoginSteps {
 
     @Then("android user see {string} message")
     public void androidUserSeeMessage(String message) {
-        String actual = loginPage.getErrorMessage();
-        Assert.assertEquals(actual,message);
+        loginPage.getErrorMessage();
     }
 
     //scenario 3
@@ -77,5 +76,11 @@ public class LoginSteps {
     @Then("android user see error message")
     public void androidUserSeeErrorMessage() {
         loginPage.getErrorMessageEmptyData();
+    }
+
+    //scenario 4
+    @And("android user input invalid password")
+    public void androidUserInputInvalidPassword() {
+        loginPage.inputPassword("password12");
     }
 }

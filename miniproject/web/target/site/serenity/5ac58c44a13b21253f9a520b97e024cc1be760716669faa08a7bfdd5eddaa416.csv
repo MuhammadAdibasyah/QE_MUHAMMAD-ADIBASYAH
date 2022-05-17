@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"As user i want to create account So that i can login","As user i have be able to success crete account","SUCCESS","2022-05-13T21:01:34.325+07:00[Asia/Bangkok]","0.0","14.04"
-"As user i want to create account So that i can login","As user i have failed to create account with registered data","SUCCESS","2022-05-13T21:01:49.161+07:00[Asia/Bangkok]","0.0","12.69"

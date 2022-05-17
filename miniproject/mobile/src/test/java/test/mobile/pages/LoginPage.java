@@ -52,17 +52,19 @@ public class LoginPage extends BasePageObject {
     }
 
     @Step
-    public void clickLoginButton(){
+    public void clickLoginButton() {
         onClick(loginButton());
     }
 
     @Step
     public void inputEmail(String email){
+        onClick(emailField());
         onType(emailField(),email);
     }
 
     @Step
     public void inputPassword(String password){
+        onClick(passwordField());
         onType(passwordField(),password);
     }
 

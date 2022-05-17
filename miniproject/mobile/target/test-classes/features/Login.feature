@@ -24,3 +24,11 @@ Feature: As a user I want to login in the app So that i can see homepage
     And android user not input password
     And android user tap login button
     Then android user see error message
+
+  @fail3
+  Scenario: As user i have failed to login
+    Given android user on landing screen
+    When android user input valid email
+    And android user input invalid password
+    And android user tap login button
+    Then android user see "email atau password tidak valid" message
