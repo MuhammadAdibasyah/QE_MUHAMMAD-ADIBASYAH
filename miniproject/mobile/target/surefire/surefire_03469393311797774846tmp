@@ -1,6 +1,0 @@
-#surefire_0
-#Tue May 17 23:01:56 ICT 2022
-user.dir=D\:\\github\\QE_MUHAMMAD-ADIBASYAH\\miniproject\\mobile
-cucumber.options=--junit,--step-notifications
-localRepository=C\:\\Users\\Admin\\.m2\\repository
-basedir=D\:\\github\\QE_MUHAMMAD-ADIBASYAH\\miniproject\\mobile
